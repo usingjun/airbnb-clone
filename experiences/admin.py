@@ -20,5 +20,5 @@ class PerkAdmin(admin.ModelAdmin):
     list_display = (
         "name",
         "details",
-        "explanations",
+        "explanation",
     )

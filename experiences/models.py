@@ -31,7 +31,7 @@ class Experience(CommonModel):
         null=True,
         blank=True,
         on_delete=models.SET_NULL,
-        related_name="experiences",
+        related_name="experience",
     )
 
     def __str__(self):
@@ -48,7 +48,7 @@ class Perk(CommonModel):
         blank=True,
         default="",
     )
-    explanations = models.TextField(
+    explanation = models.TextField(
         blank=True,
         default="",
     )
